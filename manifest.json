@@ -1,0 +1,12 @@
+{
+  "name": "Google Account switcher",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Click to toggle google accounts"
+  },
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
